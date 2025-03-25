@@ -33,7 +33,7 @@ const featuresData: Feature[] = [
     //   </svg>
     // ),
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" className="fill-current" enable-background="new 0 0 140 140" viewBox="0 0 140 140" id="oil-can">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" className="fill-current" enableBackground="new 0 0 140 140" viewBox="0 0 140 140" id="oil-can">
         <path d="M119.8205566,129.0078125V48.5791016c0-3.3359375-1.7880859-6.4560547-4.6665039-8.1425781L78.7106934,19.0859375
         c-0.1533203-0.0898438-0.3276367-0.1367188-0.5053711-0.1367188H64.6413574V6c0-0.5527344-0.4477539-1-1-1H32.8718262
         c-0.5522461,0-1,0.4472656-1,1v13.3537598c-0.0466919,0.0622559-0.0918579,0.1262207-0.1235352,0.1999512L20.2609863,46.2207031
@@ -65,7 +65,7 @@ const featuresData: Feature[] = [
     //   </svg>
     // ),
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" enable-background="new 0 0 64 64" className="fill-current" viewBox="0 0 64 64" id="automotive-battery">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" enableBackground="new 0 0 64 64" className="fill-current" viewBox="0 0 64 64" id="automotive-battery">
         <path d="M25.369,48.399c0.163,0.107,0.346,0.158,0.529,0.158c0.258,0,0.513-0.104,0.702-0.301l12.205-12.785
           c0.268-0.281,0.343-0.695,0.19-1.051c-0.153-0.357-0.503-0.59-0.892-0.59h-2.621l2.006-4.508c0.133-0.299,0.106-0.646-0.073-0.922
           s-0.485-0.441-0.813-0.441H30.6c-0.385,0-0.733,0.227-0.888,0.58l-4.458,10.129c-0.132,0.299-0.104,0.646,0.076,0.92

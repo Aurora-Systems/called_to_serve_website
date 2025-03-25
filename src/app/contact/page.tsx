@@ -2,6 +2,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
 
 import { Metadata } from "next";
+import GoogleMapsBox from "./googleMapBox";
 
 export const metadata: Metadata = {
   title: "Contact Page | Free Next.js Template for Startup and SaaS",
@@ -24,7 +25,7 @@ const ContactPage = () => {
         emails={['infor@calledtoserve.co.zw', 'sales@calledtoserve.co.zw']}
         address="Corner 1st street and Jason Moyo Ave, Harare, Zimbabwe"
       />
-
+      <GoogleMapsBox />
       <Contact />
     </>
   );

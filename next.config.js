@@ -9,6 +9,12 @@ const nextConfig = {
         port: "",
         pathname: "/called_to_serve/**"
       },
+      {
+        protocol: "https",
+        hostname: "ngratesc.sirv.com",
+        port: "",
+        pathname: "/mae_website/**"
+      },
     ],
   },
 };

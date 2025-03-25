@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ScrollArrow from "./scrollArrow";
 
 const Hero = () => {
   return (
@@ -15,9 +16,19 @@ const Hero = () => {
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   CALLED TO SERVE <span className="text-primary">AUTOPARTS</span>
                 </h1>
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                {/* <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 Your Trusted Source for Premium Auto Parts! Looking for top-quality auto parts and exceptional service? Look no further! Here at <span className="text-primary">Called To Serve</span>, we specialize in providing reliable, affordable, and durable auto parts tailored to keep your vehicle running at its best. With a wide range of products for all makes and models, expert advice, and speedy delivery, we ensure you get back on the road without hassle. Whether you&apos;re a seasoned mechanic or a first-time car owner, we&apos;re here to make your auto parts shopping experience seamless. Drive with Confidence—Shop Now!
-                </p>
+                </p> */}
+                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  <Image
+                    src="https://ngratesc.sirv.com/mae_website/5%201.png"
+                    alt="4x4 vehicle"
+                    className=""
+                    width={900}
+                    height={30}
+                  />
+                </div>
+
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   {/* <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
@@ -67,6 +78,9 @@ const Hero = () => {
                     width={60}
                     height={30}
                   />
+                </div>
+                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-40">
+                  <ScrollArrow />
                 </div>
               </div>
             </div>
