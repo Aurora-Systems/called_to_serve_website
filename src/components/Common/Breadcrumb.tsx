@@ -3,9 +3,15 @@ import Link from "next/link";
 const Breadcrumb = ({
   pageName,
   description,
+  phone,
+  emails,
+  address
 }: {
   pageName: string;
   description: string;
+  phone?: string;
+  emails?: string [];
+  address?: string;
 }) => {
   return (
     <>
@@ -17,9 +23,16 @@ const Breadcrumb = ({
                 <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
                   {pageName}
                 </h1>
-                <p className="text-base font-medium leading-relaxed text-body-color">
+                {phone ?
+                (
+                  <>
+                    <p>Call us: <span className="text-primary">{phone}</span></p>
+                    <p>Email us: {emails.map((email, i) => (<span className="text-primary" key={i}>{email}{' '}</span>))}</p>
+                    <p>Visit us at:{' '}{address}</p>
+                  </>
+                ) : <p className="text-base font-medium leading-relaxed text-body-color">
                   {description}
-                </p>
+                </p>}
               </div>
             </div>
             <div className="w-full px-4 md:w-4/12 lg:w-5/12">

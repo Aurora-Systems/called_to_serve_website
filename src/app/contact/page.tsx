@@ -14,7 +14,15 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Contacts"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description={`
+          Business number: +263 78 695 5677
+          Email: infor@calledtoserve.co.zw, sales@calledtoserve.co.zw
+          Business Address: Conner 1st street and Jason Moyo Ave, Harare, Zimbabwe
+          `
+        }
+        phone="+263 786 955 677"
+        emails={['infor@calledtoserve.co.zw', 'sales@calledtoserve.co.zw']}
+        address="Corner 1st street and Jason Moyo Ave, Harare, Zimbabwe"
       />
 
       <Contact />

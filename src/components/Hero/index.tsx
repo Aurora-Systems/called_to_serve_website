@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
@@ -12,16 +13,13 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Free and Open-Source Next.js Template for Startup & SaaS
+                  CALLED TO SERVE <span className="text-primary">AUTOPARTS</span>
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
+                Your Trusted Source for Premium Auto Parts! Looking for top-quality auto parts and exceptional service? Look no further! Here at <span className="text-primary">Called To Serve</span>, we specialize in providing reliable, affordable, and durable auto parts tailored to keep your vehicle running at its best. With a wide range of products for all makes and models, expert advice, and speedy delivery, we ensure you get back on the road without hassle. Whether you&apos;re a seasoned mechanic or a first-time car owner, we&apos;re here to make your auto parts shopping experience seamless. Drive with Confidence—Shop Now!
                 </p>
-                {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
+                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  {/* <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
@@ -32,8 +30,44 @@ const Hero = () => {
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     Star on GitHub
-                  </Link>
-                </div> */}
+                  </Link> */}
+                  
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/mazda.png"
+                    alt="logo"
+                    className=""
+                    width={60}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/honda.png"
+                    alt="logo"
+                    className=""
+                    width={60}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/audi.png"
+                    alt="logo"
+                    className=""
+                    width={140}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/toyota.png"
+                    alt="logo"
+                    className=""
+                    width={60}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/benz.png"
+                    alt="logo"
+                    className=""
+                    width={60}
+                    height={30}
+                  />
+                </div>
               </div>
             </div>
           </div>

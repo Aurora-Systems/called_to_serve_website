@@ -5,7 +5,7 @@ const Shop = () => {
     <>
       <Breadcrumb
         pageName="Shop"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Explore our catalogue."
       />
       <section className="pb-[150px] pt-[150px] bg-[url(https://ngratesc.sirv.com/called_to_serve/carpart.png)]">
         <div className="container">
