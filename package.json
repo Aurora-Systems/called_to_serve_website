@@ -1,6 +1,6 @@
 {
-  "name": "startup-nextjs-template",
-  "version": "2.1.0",
+  "name": "called-to-serve-template",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -17,7 +17,6 @@
     "next-themes": "^0.2.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-modal-video": "^2.0.1",
     "ss-search": "^1.12.2"
   },
   "devDependencies": {
