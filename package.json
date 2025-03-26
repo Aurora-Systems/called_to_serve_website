@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@supabase/supabase-js": "^2.49.3",
     "eslint": "^8.56.0",
     "eslint-config-next": "15.1.6",
