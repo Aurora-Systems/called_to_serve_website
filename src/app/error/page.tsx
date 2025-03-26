@@ -16,7 +16,7 @@ const ErrorPage = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[530px] text-center">
-                <div className="mx-auto text-center mb-9">
+                {/* <div className="mx-auto text-center mb-9">
                   <svg
                     className="w-full mx-auto text-center"
                     height="210"
@@ -140,13 +140,12 @@ const ErrorPage = () => {
                       </radialGradient>
                     </defs>
                   </svg>
-                </div>
+                </div> */}
                 <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
-                  Sorry, the page can’t be found
+                  Sorry, the operation failed!
                 </h3>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  The page you were looking for appears to have been moved,
-                  deleted or does not exist.
+                  Check your network or try again after a while.
                 </p>
                 <Link
                   href="/"
@@ -158,7 +157,7 @@ const ErrorPage = () => {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 z-[-1] hidden sm:block">
+        {/* <div className="absolute bottom-0 left-0 z-[-1] hidden sm:block">
           <svg
             width="406"
             height="286"
@@ -529,7 +528,7 @@ const ErrorPage = () => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </section>
     </>
   );

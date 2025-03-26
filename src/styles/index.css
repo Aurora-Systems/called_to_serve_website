@@ -30,4 +30,8 @@
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
   }
+
+  .card {
+    @apply rounded-xl shadow-lg dark:shadow-sm dark:shadow-gray-light;
+  }
 }

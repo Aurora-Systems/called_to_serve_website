@@ -24,7 +24,7 @@ const Hero = () => {
                     src="https://ngratesc.sirv.com/mae_website/5%201.png"
                     alt="4x4 vehicle"
                     className=""
-                    width={900}
+                    width={600}
                     height={30}
                   />
                 </div>
