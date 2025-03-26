@@ -1,5 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import ShoppingItems from "./ShoppingItems__";
+import ShoppingItems from "../../components/Shop/ShoppingItems";
 
 import { Metadata } from "next";
 

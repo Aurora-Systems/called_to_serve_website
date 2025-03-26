@@ -2,7 +2,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
 
 import { Metadata } from "next";
-import GoogleMapsBox from "./GoogleMapBox__";
+import GoogleMapsBox from "../../components/Contact/GoogleMapBox";
 
 export const metadata: Metadata = {
   title: "Contacts",
