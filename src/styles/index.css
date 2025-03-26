@@ -32,6 +32,6 @@
   }
 
   .card {
-    @apply rounded-xl shadow-lg dark:shadow-sm dark:shadow-gray-light;
+    @apply rounded-xl max-w-80 shadow-lg dark:shadow-sm dark:shadow-gray-light;
   }
 }

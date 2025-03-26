@@ -6,8 +6,8 @@ import { Metadata } from "next";
 import AboutSection from "./aboutSection";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "About",
+  description: "Find out more about us!",
   // other metadata
 };
 

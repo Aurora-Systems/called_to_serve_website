@@ -67,7 +67,7 @@ function ShoppingItems() {
 
   return (
     <>
-      <form onSubmit={handleSearch} className='flex items-center justify-center text-3xl'>
+      <form onSubmit={handleSearch} className='flex items-center justify-center text-1xl'>
 				<input
 					type='text'
 					className='outline-none rounded-lg p-5'
@@ -105,7 +105,7 @@ function ShoppingItems() {
 				<div className='flex items-center justify-center text-3xl h-100 text-primary' style={{height: '300px'}}><span>{error}</span></div>
 			) : (
         <section className="flex items-center justify-center container mx-auto pb-10 pt-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {items && search(items, ['item_name'], searchQuery).map(item => { 
               const { data } = db.storage.from("images").getPublicUrl(item.image_id);
               let stock_message = <></>;

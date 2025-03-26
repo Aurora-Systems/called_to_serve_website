@@ -5,8 +5,8 @@ import { Metadata } from "next";
 import GoogleMapsBox from "./googleMapBox";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
+  title: "Contacts",
+  description: "Reach out to us!",
   // other metadata
 };
 

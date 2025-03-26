@@ -1,6 +1,14 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import ShoppingItems from "./shoppingItems";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Shop",
+  description: "View our catalogue!",
+  // other metadata
+};
+
 const Shop = () => {
   return (
     <>
