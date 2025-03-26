@@ -3,7 +3,7 @@ import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
-import AboutSection from "./aboutSection";
+import AboutSection from "./AboutSection";
 
 export const metadata: Metadata = {
   title: "About",
