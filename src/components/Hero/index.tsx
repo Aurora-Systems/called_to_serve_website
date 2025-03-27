@@ -3,10 +3,10 @@ import Link from "next/link";
 import ScrollArrow from "./scrollArrow";
 import Carousel from "../Carousel/Carousel";
 
-const card1 = 'https://ngratesc.sirv.com/Mashkay/about_banner.jpg';//'/card1.svg';
-const card2 = 'https://ngratesc.sirv.com/Mashkay/163035234858169.jpg';//'/card2.svg';
-const card3 = 'https://ngratesc.sirv.com/Mashkay/DAF_truck_fuel_consumption-1024x683.jpg';//'/card3.svg';
-const card4 = 'https://ngratesc.sirv.com/Mashkay/1294.jpg';//'/card4.svg';
+const card1 = 'https://ngratesc.sirv.com/Mashkay/about_banner.jpg';
+const card2 = 'https://ngratesc.sirv.com/Mashkay/163035234858169.jpg';
+const card3 = 'https://ngratesc.sirv.com/Mashkay/DAF_truck_fuel_consumption-1024x683.jpg';
+const card4 = 'https://ngratesc.sirv.com/Mashkay/1294.jpg';
 
 
 const cards = [card1, card2, card3, card4];
