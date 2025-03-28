@@ -1,47 +1,106 @@
 import Image from "next/image";
 import Link from "next/link";
 import ScrollArrow from "./scrollArrow";
-import Carousel from "../Carousel/Carousel";
-
-const card1 = 'https://ngratesc.sirv.com/Mashkay/about_banner.jpg';
-const card2 = 'https://ngratesc.sirv.com/Mashkay/163035234858169.jpg';
-const card3 = 'https://ngratesc.sirv.com/Mashkay/DAF_truck_fuel_consumption-1024x683.jpg';
-const card4 = 'https://ngratesc.sirv.com/Mashkay/1294.jpg';
-
-
-const cards = [card1, card2, card3, card4];
-const imagesItems = cards.map((card, i) => <Image key={i} className="h-full w-full" width={600} height={30} src={card} alt="teste" />);
 
 const Hero = () => {
   return (
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white dark:bg-gray-darkish"
+        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-darkish md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-        <div className="container h-screen">
-          <div className="-mx-4 flex flex-wrap h-full">
+        <div className="container">
+          <div className="mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="text-center flex flex-col items-center justify-center h-full">
-                <h1 className="mb-[1vh] text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+              <div className="mx-auto max-w-[800px] text-center">
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   CALLED TO SERVE <span className="text-primary">AUTOPARTS</span>
                 </h1>
-
+                {/* <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                Your Trusted Source for Premium Auto Parts! Looking for top-quality auto parts and exceptional service? Look no further! Here at <span className="text-primary">Called To Serve</span>, we specialize in providing reliable, affordable, and durable auto parts tailored to keep your vehicle running at its best. With a wide range of products for all makes and models, expert advice, and speedy delivery, we ensure you get back on the road without hassle. Whether you&apos;re a seasoned mechanic or a first-time car owner, we&apos;re here to make your auto parts shopping experience seamless. Drive with Confidence—Shop Now!
+                </p> */}
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Image
-                    src="https://ngratesc.sirv.com/mae_website/5%201.png"
+                    src="https://ngratesc.sirv.com/called_to_serve/3d-truck.png"
                     alt="4x4 vehicle"
                     className=""
-                    width={300}
+                    width={600}
                     height={30}
                   />
                 </div>
 
-                <div className="flex w-full flex-col items-center justify-center px-20 text-center">
-                  <Carousel items={imagesItems} />
+                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  {/* <Link
+                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                    🔥 Get Pro
+                  </Link>
+                  <Link
+                    href="https://github.com/NextJSTemplates/startup-nextjs"
+                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                  >
+                    Star on GitHub
+                  </Link> */}
+                  
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/iveco-logo.png"
+                    alt="logo"
+                    className=""
+                    width={100}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/daf-logo.png"
+                    alt="logo"
+                    className=""
+                    width={60}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/man-truck-bus-logo.png"
+                    alt="logo"
+                    className=""
+                    width={60}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/scania-logo.png"
+                    alt="logo"
+                    className=""
+                    width={60}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/volvo-logo.png"
+                    alt="logo"
+                    className=""
+                    width={60}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/benz.png"
+                    alt="logo"
+                    className=""
+                    width={60}
+                    height={30}
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/ud-trucks-logo.png"
+                    alt="logo"
+                    width={120}
+                    height={30}
+                    className="dark:hidden"
+                  />
+                  <Image
+                    src="https://ngratesc.sirv.com/called_to_serve/ud-trucks-logo-dark.png"
+                    alt="logo"
+                    className="hidden dark:block"
+                    width={120}
+                    height={30}
+                  />
                 </div>
-
-                <div className="mt-[8vh] flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-40">
                   <ScrollArrow />
                 </div>
               </div>
