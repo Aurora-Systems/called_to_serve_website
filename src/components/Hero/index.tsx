@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="bg-[url(https://ngratesc.sirv.com/Mashkay/Untitled%20design.png)] bg-cover bg-center bg-no-repeat relative z-10 overflow-hidden  pb-16 pt-[120px]  md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden  pb-16 pt-[120px]  md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
           <div className="mx-4 flex flex-wrap">
@@ -17,7 +17,7 @@ const Hero = () => {
                   CALLED TO SERVE <span className="text-primary">AUTOPARTS</span>
                 </h1>
       
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Image
                     src="https://ngratesc.sirv.com/called_to_serve/3d-truck.png"
                     alt="truck vehicle"
@@ -25,7 +25,7 @@ const Hero = () => {
                     width={300}
                     height={30}
                   />
-                </div>
+                </div> */}
 
                 <div className="bg-[rgb(255,255,255)]/50 py-5 flex flex-col items-center rounded-lg justify-around space-y-4 md:flex-row md:space-x-4 md:space-y-0">
                   <Image
@@ -87,6 +87,8 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      
+      <div className="absolute inset-0 bg-[url(https://ngratesc.sirv.com/Mashkay/Untitled%20design.png)] bg-cover bg-center bg-no-repeat opacity-70"></div>
     </>
   );
 };
