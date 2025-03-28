@@ -8,7 +8,7 @@ const ScrollArrow = () => {
   return (
     <button
       onClick={scrollToSection}
-      className="border-none bg-transparent text-primary cursor-pointer font-normal"
+      className="border-none bg-transparent text-white cursor-pointer font-normal"
     >
       &#x25BC; Find Out More
     </button>
