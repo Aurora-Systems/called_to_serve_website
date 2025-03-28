@@ -27,7 +27,7 @@ const Hero = () => {
                   />
                 </div>
 
-                <div className="bg-[rgb(255,255,255)]/50 py-5 flex flex-col items-center rounded-lg justify-around space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="bg-[rgb(255,255,255)]/50 py-5 flex flex-col items-center rounded-lg justify-around space-y-4 md:flex-row md:space-x-4 md:space-y-0">
                   <Image
                     src="https://ngratesc.sirv.com/called_to_serve/iveco-logo.png"
                     alt="logo"
