@@ -112,7 +112,7 @@ function ShoppingItems() {
 
               if(item.in_stock < 5 && item.in_stock !== 0) {
                 stock_message = <span className="text-warning">Limited stock - {item.in_stock} Left</span>
-              } else if (item.in_stock > 5){
+              } else if (item.in_stock >= 5){
                 stock_message = <span className="text-success">In Stock</span>
               } else {
                 stock_message = <span className="text-danger">Out of stock - custom orders only</span>
