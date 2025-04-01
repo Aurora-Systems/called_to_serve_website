@@ -4,9 +4,10 @@ function Card(props) {
   return (
     <div className="card">
       <div className="p-5 flex flex-col justify-between h-full">
-        <div className="rounded-xl overflow-hidden">
-          <img src={props.imageUrl} alt="image of a shopping item" style={{maxHeight: '200px'}} />
+        <div className="rounded-xl w-full overflow-hidden">
+          <img src={props.imageUrl} alt="image of a shopping item" className="w-full h-full object-cover max-h-[200px]" />
         </div>
+        
         <div className="flex items-center justify-between">
           <h5 className="text-2xl md:text-3xl font-medium mt-3">{props.itemName}</h5>
           <h5 className="text-2xl md:text-3xl font-medium mt-3 text-primary">${props.price}</h5>
