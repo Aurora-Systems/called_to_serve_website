@@ -3,6 +3,7 @@ import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
+import SubstackFeed from "../components/substack";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -18,7 +19,7 @@ const Blog = () => {
         description="Have a look at some interesting stuff."
       />
 
-      <section className="pb-[120px] pt-[120px]">
+      <section className="pb-[120px] pt-[20px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {/* {blogData.map((blog) => (
@@ -29,8 +30,9 @@ const Blog = () => {
                 <SingleBlog blog={blog} />
               </div>
             ))} */}
-            Blog Space
+          <SubstackFeed/>
           </div>
+
 
           {/* <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
             <div className="w-full px-4">
